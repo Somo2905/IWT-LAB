@@ -1,0 +1,28 @@
+body{
+    text-align:center;
+    background-color: lightblue;
+  }
+  div{
+    background-color:bisque;display: inline-block;width: 500px;height: 320px;padding: 50px;border-radius: 30px;
+  }
+   h1{
+    color:red;
+   }
+   label{
+    color:blueviolet;
+   }
+   #one{
+    background-color: rgb(15, 232, 15)
+   }
+   #two{
+    background-color: rgb(172, 172, 241)
+   }
+   #three{
+    background-color: rgb(242, 242, 85)
+   }
+   #four{
+    background-color: rgb(247, 87, 87)
+   }
+   #five{
+    background-color: rgb(4, 196, 4)
+   }

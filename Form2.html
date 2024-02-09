@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+        text-align:center;
+        background-color: lightblue;
+      }
+      div{
+        background-color:bisque;display: inline-block;width: 500px;height: 320px;padding: 50px;border-radius: 30px;
+      }
+       h1{
+        color:red;
+       }
+       label{
+        color:blueviolet;
+       }
+       #one{
+        background-color: rgb(15, 232, 15)
+       }
+       #two{
+        background-color: rgb(172, 172, 241)
+       }
+       #three{
+        background-color: rgb(242, 242, 85)
+       }
+       #four{
+        background-color: rgb(247, 87, 87)
+       }
+       #five{
+        background-color: rgb(4, 196, 4)
+       }
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Registration Form</h1>
+    <form action="http://127.0.0.1:5500/Login.html" >
+       <label>
+        Name:
+       <input id='one' type="text" placeholder="Enter Name"> 
+       <br></br>
+       Roll:
+       <input id='two' type="text" placeholder="Enter Roll Number">
+       <br></br>
+       Age:
+       <input id='three' type="text" placeholder="Enter Age">
+       <br></br>
+       Gender:
+       <input type="radio" name="Gender" id="Gender">
+       <label for="Gender">Male</label>
+       <input type="radio" name="Gender" id="Gender">
+       <label for="Gender">Female</label>
+       <input type="radio" name="Gender" id="Gender">
+       <label for="Gender">Trans</label>
+       <br></br>
+    Password:
+        <input id='four' type="password" placeholder="Enter password">
+    <br></br>
+    <input id='five' type="submit" value="Submit">
+    </label>
+    </form>
+</div>
+</body>
+</html>
